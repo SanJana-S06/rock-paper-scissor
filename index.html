@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissors game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Macondo&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav">
+        WELCOME TO ROCK PAPER SCISSOR GAME
+    </nav>
+    <div class="container">
+        <div class="moves">
+            <p>Make Your Choice</p>
+            <div>
+                <div class="choice" ><img src="rock.png" id="r"></div>
+                <div class="choice" ><img src="paper.png" id="p"></div>
+                <div class="choice" ><img src="scissors.png" id="s"></div>
+            </div>
+            <div>
+                <div class="score" id="cturn">
+                    computer
+                </div>
+                <!-- <img src="rps anni.gif" id="hand" alt="image not found"> -->
+                <img src="hand-ani-unscreen.gif" id="hand" alt="image">
+                <img src="rock.png" class="chand" id="hand1" alt="image">
+                <img src="paper.png" class="chand" id="hand2" alt="image">
+                <img src="scissors.png" class="chand" id="hand3" alt="image">
+
+                <div class="score" id="uturn">
+                    user
+                </div>
+                <img src="right-rock.png" class="uhand" id="hand4">
+                <img src="right paper.png" class="uhand" id="hand5">
+                <img src="right-scissor.png" class="uhand" id="hand6">
+
+            </div>
+        </div>
+        <div class="moves">
+            <p id="res"> Score</p>
+            <div class="score" id="user">
+                User: 00
+            </div>
+            <div class="score" id="comp">
+                Computer: 00
+            </div>
+            <button class="btn" id="playbtn">Play</button>
+            <button class="btn" id="playagainbtn">Play Again </button>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

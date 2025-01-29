@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav {
+    background-color: rgba(7, 7, 7, 0.998);
+    padding: 37px 49px;
+    height: 42px;
+    color: rgb(255, 228, 196);
+    font-size: 53px;
+    font-family: "Jersey 15", serif;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+}
+
+#hand {
+    display: none;
+    width: 370px;
+    height: 215px;
+    margin-left: 131px;
+    margin-top: -91px;
+}
+
+.chand {
+    display: none;
+    margin: 7px -113px
+}
+
+.uhand {
+    display: none;
+    position: absolute;
+    top: 512px;
+    right: 617px;
+}
+
+.score {
+    display: inline-flex;
+    justify-content: center;
+    border: 2px solid rgb(205, 37, 37);
+    border-radius: 5%;
+    margin: 15px 5px;
+    padding: 20px;
+    font-family: "Ubuntu", serif;
+}
+
+#cturn {
+    display: none;
+    width: 60px;
+    background-color: blanchedalmond;
+    position: relative;
+    left: -152px;
+    top: -30px;
+    border: none;
+}
+
+#uturn {
+    display: none;
+    width: 60px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 395px;
+    right: 555px;
+    border: none;
+}
+
+.moves {
+    display: block;
+    justify-self: center;
+    margin: 22px 48px;
+}
+
+div p {
+    color: black;
+    font-size: 55px;
+    text-align: center;
+    font-family: "Macondo", serif;
+    ;
+}
+
+.choice {
+    display: inline-flex;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 50%;
+    width: 88px;
+    height: 113px;
+    margin: 26px 38px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: rgb(230, 184, 105);
+}
+
+#user {
+    display: none;
+}
+
+#comp {
+    display: none;
+}
+
+.btn {
+    display: block;
+    justify-self: center;
+    padding: 15px;
+    margin-top: 40px;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: "Ubuntu", serif;
+}
+
+.btn:hover {
+    background-color: rgb(2, 2, 2);
+    color: blanchedalmond;
+}
+
+#playagainbtn {
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+    /* Disable interaction */
+    opacity: 0.5;
+}
+#res{
+    margin-bottom: 30px;
+}
